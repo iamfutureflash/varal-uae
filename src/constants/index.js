@@ -1,4 +1,4 @@
-import { garage, crown, dungeon, laptop_working_top_view, two_people_group, form_explaining, travel_people, right_arrow, } from "../assets"
+import { garage, crown, dungeon, laptop_working_top_view, two_people_group, form_explaining, travel_people, right_arrow,tick,white_tick } from "../assets"
 
 export const card_deal = [
     {
@@ -65,6 +65,8 @@ export const testimonials_2 = [
 export const SlidesData = [
     {
         id: "1",
+        btick:tick,
+        wtick:white_tick,
         title: "AJMAN OFFSHORE",
         price: "$2,997",
         OTP: "One Time Payment",
@@ -83,6 +85,8 @@ export const SlidesData = [
     },
     {
         id: "2",
+        btick:tick,
+        wtick:white_tick,
         title: "RAK ICC",
         price: "$2,997",
         OTP: "One Time Payment",
@@ -101,6 +105,8 @@ export const SlidesData = [
     },
     {
         id: "3",
+        btick:tick,
+        wtick:white_tick,
         title: "SHARJAH MEDIA CITY",
         price: "$4,124",
         OTP: "One Time Payment",

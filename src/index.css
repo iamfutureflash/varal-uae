@@ -11,3 +11,13 @@
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+.slide-container{
+scroll-snap-type: x mandatory;
+scroll-padding:24px ;
+gap:12px
+}
+.slide-container> .each_slide{
+  flex:0 0 100%;
+  scroll-snap-align:start;
+} 
