@@ -1,8 +1,17 @@
-import React from 'react'
-
+import FeedbackCard from "./FeedbackCard"
+import MainFooter from "./MainFooter"
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='main-container'>
+      <div className="sub-container">
+        <div className="left footer-top">
+          <FeedbackCard/>
+        </div>
+        <div className="right footer-bottom">
+          <MainFooter/>
+        </div>
+      </div>
+    </div>
   )
 }
 

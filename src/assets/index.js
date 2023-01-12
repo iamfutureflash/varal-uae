@@ -53,7 +53,7 @@ import ring_with_white_rectangle from "./Group_100.png";
 import menu from "./menu.svg"
 import close from "./close.svg"
 import search from "./search.svg"
-import tick from "./Group_35.png"
+import tick from "./tick.svg"
 import white_tick from "./tick_white.svg"
 
 
