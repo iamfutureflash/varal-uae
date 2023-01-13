@@ -12,10 +12,10 @@
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-
 .sub-container-swiper:hover {
   @apply bg-primary text-white;
 }
+
 .sub-container-swiper:hover  sub{
   @apply  text-white;
 }
@@ -25,3 +25,10 @@
 .sub-container-swiper:hover .button-swiper{
   @apply  bg-white text-primary;
 }
+.sub-container-swiper:hover .img-swiper1{
+  @apply  hidden;
+}
+.sub-container-swiper:hover .img-swiper2{
+  @apply  block opacity-100 z-20 ;
+}
+

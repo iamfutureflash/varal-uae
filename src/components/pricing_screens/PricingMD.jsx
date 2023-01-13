@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 function PricingMD() {
-    const [hover, setHover] = useState(false);
+
     return (
         <>
             <div className=" w-full">
@@ -28,8 +28,7 @@ function PricingMD() {
                         {SlidesData.map((d, i) => (
                             <>
                                 <SwiperSlide className=" py-8 flex justify-center ">
-                                    <div key={i} className="sub-container-swiper  min-w-[300px] max-w-[300px] mx-8 each_slide rounded-xl box-border px-4 py-4 " onMouseEnter={() => setHover(true)}
-                                        onMouseLeave={() => setHover(false)}>
+                                    <div key={i} className="sub-container-swiper  min-w-[300px] max-w-[330px] mx-8  rounded-xl  px-4 py-4 bg-white" >
                                         <div className="title ">
                                             <h4 className="font-lexend font-bold text-xl">{d.title}</h4>
                                         </div>
@@ -41,46 +40,76 @@ function PricingMD() {
                                         <div className="subtitle">
                                             <h4 className="font-noto font-normal text-sm text-slate-500">{d.shortDesc}</h4>
                                         </div>
-                                        <div className="points font-lexend flex flex-col items-start justify-center">
-                                            <div className="p1 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover?d.wtick:d.btick} alt={d.p1} className="w-6 img-swiper" />
+                                        <div className="points font-lexend flex flex-col items-start justify-start max-w-[330px] ">
+                                            <div className="p1 flex items-start justify-start   p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p1}</p>
                                             </div>
-                                            <div className="p2 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover?d.wtick:d.btick} alt={d.p2} className="w-6 img-swiper" />
+                                            <div className="p2 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p2}</p>
                                             </div>
-                                            <div className="p3 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p3} className="w-6 img-swiper" />
+                                            <div className="p3 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p3}</p>
                                             </div>
-                                            <div className="p4 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p4} className="w-6 img-swiper" />
+                                            <div className="p4 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p4}</p>
                                             </div>
-                                            <div className="p5 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p5} className="w-6 img-swiper" />
+                                            <div className="p5 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p5}</p>
                                             </div>
-                                            <div className="p6 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p6} className="w-6 img-swiper" />
+                                            <div className="p6 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p6}</p>
                                             </div>
-                                            <div className="p7 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p7} className="w-6 img-swiper" />
+                                            <div className="p7 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p7}</p>
                                             </div>
-                                            <div className="p8 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p8} className="w-6 img-swiper" />
+                                            <div className="p8 flex items-center justify-start  p-2 gap-2">
+                                            <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p8}</p>
                                             </div>
-                                            <div className="p9 flex items-center justify-start  space-y-2 space-x-3">
-                                                <img src={hover ?d.wtick:d.btick} alt={d.p9} className="w-6 img-swiper" />
+                                            <div className="p9 flex items-start justify-start  p-2 gap-2  ">
+                                                <div className="img">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
                                                 <p className="font-noto text-base">{d.p9}</p>
                                             </div>
-                                            <div className="p10 items-center justify-center   flex space-x-3 ">
-                                                <img src={hover?d.wtick:d.btick} alt={d.p10} className="w-6 img-swiper" />
-                                                <p className="font-noto text-base">{d.p10}</p>
+                                            <div className="p10 items-start justify-start flex space-x-3   ">
+                                                <div className="img ml-2">
+                                                    <img src={d.btick} alt={d.p1} className="w-6 img-swiper1" />
+                                                    <img src={d.wtick} alt={d.p1} className="w-6 img-swiper2 hidden" />
+                                                </div>
+                                                <p className="font-noto text-base max-w-[200px]">{d.p10}</p>
                                             </div>
                                         </div>
                                         <div className="button-swiper flex justify-center mt-4 mb-1 py-4 w-full border-2 border-primary rounded-lg cursor-pointer">
