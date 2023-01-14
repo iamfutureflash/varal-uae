@@ -28,7 +28,7 @@ function PricingMD() {
                         {SlidesData.map((d, i) => (
                             <>
                                 <SwiperSlide className=" py-8 flex justify-center ">
-                                    <div key={i} className="sub-container-swiper  min-w-[300px] max-w-[330px] mx-8  rounded-md  px-4 py-4 bg-white" >
+                                    <div key={i} className="sub-container-swiper  min-w-[300px] max-w-[300px] mx-8  rounded-md  px-4 py-4 bg-white" >
                                         <div className="title ">
                                             <h4 className="font-lexend font-bold text-xl mb-4">{d.title}</h4>
                                         </div>
@@ -113,7 +113,7 @@ function PricingMD() {
                                             </div>
                                         </div>
                                         <div className="button-swiper flex justify-center mt-4 mb-1 py-4 w-full border-2 border-primary rounded-lg cursor-pointer">
-                                            <button className="">{d.button}</button>
+                                            <button className="font-medium">{d.button}</button>
                                         </div>
                                     </div>
                                 </SwiperSlide>

@@ -28,17 +28,17 @@ function PricingSM() {
                         {SlidesData.map((d, i) => (
                             <>
                                 <SwiperSlide className=" py-8 flex justify-center ">
-                                    <div key={i} className="sub-container-swiper  min-w-[300px] max-w-[330px] mx-8  rounded-md  px-4 py-4 bg-white" >
+                                    <div key={i} className="sub-container-swiper  min-w-[300px] max-w-[300px] mx-8  rounded-md  px-4 py-4 bg-white" >
                                         <div className="title ">
-                                            <h4 className="font-lexend font-bold text-xl">{d.title}</h4>
+                                            <h4 className="font-lexend font-bold text-xl mb-4">{d.title}</h4>
                                         </div>
-                                        <div className="price flex">
+                                        <div className="price flex mb-2">
                                             <h2 className="font-lexend font-bold text-2xl">{d.price}
-                                                <sub className="font-noto font-normal text-sm text-slate-500">{d.OTP}</sub>
+                                                <sub className="font-noto font-medium text-sm text-slate-500 ml-2">{d.OTP}</sub>
                                             </h2>
                                         </div>
                                         <div className="subtitle">
-                                            <h4 className="font-noto font-normal text-sm text-primary">{d.shortDesc}</h4>
+                                            <h4 className="font-noto font-medium text-sm text-primary">{d.shortDesc}</h4>
                                         </div>
                                         <div className="points font-lexend text-sm flex flex-col items-start justify-start max-w-[330px] ">
                                             <div className="p1 flex items-start justify-start   p-2 gap-2">
@@ -113,7 +113,7 @@ function PricingSM() {
                                             </div>
                                         </div>
                                         <div className="button-swiper flex justify-center mt-4 mb-1 py-4 w-full border-2 border-primary rounded-lg cursor-pointer">
-                                            <button className="">{d.button}</button>
+                                            <button className="font-medium">{d.button}</button>
                                         </div>
                                     </div>
                                 </SwiperSlide>
