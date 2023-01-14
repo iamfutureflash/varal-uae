@@ -38,7 +38,7 @@ function PricingSM() {
                                             </h2>
                                         </div>
                                         <div className="subtitle">
-                                            <h4 className="font-noto font-normal text-sm text-slate-500">{d.shortDesc}</h4>
+                                            <h4 className="font-noto font-normal text-sm text-primary">{d.shortDesc}</h4>
                                         </div>
                                         <div className="points font-lexend flex flex-col items-start justify-start max-w-[330px] ">
                                             <div className="p1 flex items-start justify-start   p-2 gap-2">
