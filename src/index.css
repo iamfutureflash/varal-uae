@@ -16,19 +16,31 @@
   @apply bg-primary text-white;
 }
 
-.sub-container-swiper:hover  sub{
-  @apply  text-white;
+.sub-container-swiper:hover sub {
+  @apply text-white;
 }
-.sub-container-swiper:hover > div.subtitle>h4{
-  @apply  text-white;
+.sub-container-swiper:hover > div.subtitle > h4 {
+  @apply text-white;
 }
-.sub-container-swiper:hover .button-swiper{
-  @apply  bg-white text-primary;
+.sub-container-swiper:hover .button-swiper {
+  @apply bg-white text-primary;
 }
-.sub-container-swiper:hover .img-swiper1{
-  @apply  hidden;
+.sub-container-swiper:hover .img-swiper1 {
+  @apply hidden;
 }
-.sub-container-swiper:hover .img-swiper2{
-  @apply  block opacity-100 z-20 ;
+.sub-container-swiper:hover .img-swiper2 {
+  @apply block opacity-100 z-20;
+}
+.five-min-tips:hover {
+  @apply bg-primary text-white;
+}
+.five-min-tips:hover .five-min-tips-title {
+  @apply text-white;
+}
+.five-min-tips:hover .five-min-tips-time {
+  @apply text-white;
 }
 
+.subscribe_desc_word_spacing {
+    word-spacing: 5px;
+}

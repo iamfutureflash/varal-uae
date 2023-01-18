@@ -55,9 +55,11 @@ import close from "./close.svg"
 import search from "./search.svg"
 import tick from "./tick.svg"
 import white_tick from "./tick_white.svg"
-
+import left_quote from "./icons8-quote-left-50.png"
+import right_quote from "./icons8-quote-right-50.png"
 
 export {
+  left_quote,right_quote,
   brown_ellipse_1,brown_ellipse_2,brown_ellipse_3,brown_ellipse_4,brown_ellipse_5,brown_ellipse_6,brown_ellipse_7,
   blue_ellipse_1,blue_ellipse_2,blue_ellipse_3,blue_ellipse_4,blue_ellipse_5,blue_ellipse_6,blue_ellipse_7,blue_ellipse_8,
   gray_ellipse_1,gray_ellipse_2,gray_ellipse_3,gray_ellipse_4,

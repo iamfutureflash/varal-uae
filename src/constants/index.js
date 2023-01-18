@@ -1,4 +1,4 @@
-import { garage, crown, dungeon, laptop_working_top_view, two_people_group, form_explaining, travel_people, right_arrow,tick,white_tick } from "../assets"
+import { garage, crown, dungeon, laptop_working_top_view, two_people_group, form_explaining, travel_people, right_arrow, tick, white_tick, facebook, instagram, linkedin, youtube,click_email } from "../assets"
 
 export const card_deal = [
     {
@@ -42,7 +42,7 @@ export const testimonials_1 = [
         arrow: right_arrow,
     },
 
-];                  
+];
 export const testimonials_2 = [
     {
         id: "3",
@@ -65,8 +65,8 @@ export const testimonials_2 = [
 export const SlidesData = [
     {
         id: "1",
-        btick:tick,
-        wtick:white_tick,
+        btick: tick,
+        wtick: white_tick,
         title: "AJMAN OFFSHORE",
         price: "$2,997",
         OTP: "One Time Payment",
@@ -85,8 +85,8 @@ export const SlidesData = [
     },
     {
         id: "2",
-        btick:tick,
-        wtick:white_tick,
+        btick: tick,
+        wtick: white_tick,
         title: "RAK ICC",
         price: "$2,997",
         OTP: "One Time Payment",
@@ -105,8 +105,8 @@ export const SlidesData = [
     },
     {
         id: "3",
-        btick:tick,
-        wtick:white_tick,
+        btick: tick,
+        wtick: white_tick,
         title: "SHARJAH MEDIA CITY",
         price: "$4,124",
         OTP: "One Time Payment",
@@ -124,4 +124,87 @@ export const SlidesData = [
         button: "Continue",
     },
 
+]
+export const FooterData = [
+    {
+        title: "Service",
+        links: [
+            { name: "Products", },
+            { name: "Solutions", },
+            { name: "Assurance", },
+            { name: "FAQ", },
+            { name: "Working at Varal-Singhania", },
+        ]
+    },
+    {
+        title: "Policies",
+        links: [
+            { name: "Privicy Policy", },
+            { name: "Terms & Conditions", },
+        ]
+    }, {
+        title: "About",
+        links: [
+            { name: "About Us", },
+            { name: "Contact Us", },
+        ]
+    }
+]
+
+export const Address = [
+    {
+        title: "Address",
+        Address: [
+            {
+                street_address: "608 One Lake Plaza, Cluster T, Al Sarayat Street, Jumeirah Lake Towers Dubai United Arab Emirate"
+            }
+        ],
+        office_hours: [
+            {
+                title: "Office Hours:",
+                time: "Sunday to Thursday 8:30 AM to 6:30 PM [GMT+4]",
+                phone_number: [
+                    {
+                        phone_location: "M:",
+                        phone_number_1: "+971 55 794 2016"
+                    },
+                    {
+                        phone_location: "O:",
+                        phone_number_1: "+971 4 44 447 2061"
+                    }
+                ]
+
+            }
+        ]
+    }
+]
+export const SubscribeNow = [
+    {
+        title1: "Subscribe now",
+        title2: "Subscribe to our Newsletter",
+        Subscribe_now_desc:"Sunbscribe now to receive our Newsletters about amazing opportunities in Dubai",
+        icon:click_email,
+    },
+]
+export const Social_links = [
+    {
+        id:"1",
+        title: "facebook",
+        icon:facebook,
+    },
+    {
+        id:"2",
+        title: "instagram",
+        icon:instagram,
+    },
+    {
+        id:"3",
+        title: "linkedin",
+        icon:linkedin,
+    },
+    {
+        id:"4",
+        title: "youtube",
+        icon:youtube,
+    },
 ]
