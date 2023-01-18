@@ -9,7 +9,7 @@ function Navbar() {
       </div>
       <div className='for-small-screen md:hidden '>
         <img src={toggle?close:menu} alt="menu" className='w-10 h-10 relative' onClick={()=>setToggle((toggle)=>!toggle)} />
-        <div className={`for-small-screen-visible-on-click ${toggle?'flex':'hidden'} absolute flex-col justify-center items-center space-x-4  right-10   slider_gradient rounded-lg mt-5 sidebar`}>
+        <div className={`for-small-screen-visible-on-click ${toggle?'flex':'hidden'}  absolute flex-col justify-center items-center space-x-4  right-10   slider_gradient rounded-lg mt-5 sidebar`}>
           <ul className='flex flex-col  justify-center item-center   text-white capitalize  text-lg font-noto font-medium leading-10'>
             <li className='cursor-pointer'>home</li>
             <li className='cursor-pointer'>service</li>

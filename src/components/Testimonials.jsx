@@ -1,9 +1,13 @@
 import { testimonials_1, testimonials_2 } from '../constants'
-import { right_arrow } from '../assets'
+import { right_arrow, blue_ellipse_1, brown_ellipse_1, gray_ellipse_1 } from '../assets'
 
 function Testimonials() {
   return (
-    <div className='main-container xxs:mx-2  my-14  flex justify-center items-center'>
+    <div className='main-container xxs:mx-2  my-14  flex justify-center items-center relative'>
+            <div className='small_blue  left-[24rem]  top-[43rem] animate-bounce  absolute z-[10] '><img src={blue_ellipse_1} alt="" className='w-10 h-10' /></div>
+            <div className='small_blue  right-[16rem]  top-[34rem] animate-bounce  absolute z-[10] '><img src={brown_ellipse_1} alt="" className='w-4 h-4' /></div>
+            <div className='small_blue  left-[38rem]  top-[33rem] animate-bounce  absolute z-[10] '><img src={blue_ellipse_1} alt="" className='w-20 h-20' /></div>
+            <div className='small_blue  left-[36rem]  top-[71rem] animate-bounce  absolute z-[10] '><img src={gray_ellipse_1} alt="" className='w-6 h-6' /></div>
       <div className='sub-container flex w-full xxs:flex-col md:flex-row justify-between md:mx-20 max-w-[750px] '>
         <div className='left flex flex-col justify-center items-center'>
           <div className='claim-free-quote mb-16'>

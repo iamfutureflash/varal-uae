@@ -19,7 +19,16 @@
 .sub-container-swiper:hover sub {
   @apply text-white;
 }
+.sub-container-swiper:hover > div.title >h4 {
+  @apply text-white;
+}
+.sub-container-swiper:hover > div.price >h2 {
+  @apply text-white;
+}
 .sub-container-swiper:hover > div.subtitle > h4 {
+  @apply text-white;
+}
+.sub-container-swiper:hover > div.points  {
   @apply text-white;
 }
 .sub-container-swiper:hover .button-swiper {

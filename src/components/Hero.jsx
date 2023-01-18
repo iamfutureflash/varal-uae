@@ -1,8 +1,9 @@
-import { laptop_working_view } from "../assets"
+import { laptop_working_view, brown_ellipse_1 } from "../assets"
 
 function Hero() {
   return (
-    <section className=' flex flex-col md:flex-row justify-between items-center  mx-4 md:mx-0 '>
+    <section className=' flex flex-col md:flex-row justify-between items-center  mx-4 md:mx-0 relative'>
+      <div className='small_blue animate-bounce  left-40  top-12 absolute z-20 w-4 h-4'><img src={brown_ellipse_1} alt="" /></div>
       <div className='md:on-left sm:on-top flex flex-col  w-full'>
         <div className="claim text-start text-primary font-lexend font-bold lg:font-normal mt-10 mb-2 ">
           <h4>Claim a Free Quote</h4>
@@ -30,8 +31,8 @@ function Hero() {
           <input className="bg-white xxs:my-2 px-4 py-4 font-noto font-medium text-primary xxs:rounded-md ss:rounded-l-none ss:rounded-r-md border-primary border-2" type="button" value="Renew a Company" />
         </div>
       </div>
-      <div className='md:on-right sm:on-bottom hidden md:block w-full'>
-      <img src={laptop_working_view} alt="laptop working image" className="w-full" />
+      <div className='md:on-right sm:on-bottom hidden md:block w-full animate-pulse ease-linear'>
+      <img src={laptop_working_view} alt="laptop working image " className="w-full " />
       </div>
     </section>
   )

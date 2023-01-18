@@ -1,8 +1,11 @@
 import { card_deal } from '../constants/'
+import { blue_ellipse_1, brown_ellipse_1 } from '../assets'
 
 function CardDeal() {
   return (
-    <div className='main-container py-2 '>
+    <div className='main-container py-2 relative'>
+      <div className='small_blue  right-[37rem]  top-[14rem] animate-bounce  absolute z-[10] '><img src={brown_ellipse_1} alt="" className='w-12 h-12' /></div>
+      <div className='small_blue  left-[20rem]  top-[13rem] animate-bounce  absolute z-[10] '><img src={blue_ellipse_1} alt="" className='w-6 h-6' /></div>
       <div className='sub-container flex flex-row flex-wrap justify-center items-center '>
         {card_deal.map((info) => (
           <>
